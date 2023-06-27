@@ -2,4 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap");
 html, body {
   font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  text-align: center;
+}
+.navbar .navbar__lista .navbar__item {
+  display: inline-block;
+  padding: 1rem;
+}
+.navbar .navbar__lista .navbar__item .navbar__link {
+  color: #495371;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar .navbar__lista .navbar__item .navbar__link:hover {
+  border-bottom: 2px solid #74959A;
 }/*# sourceMappingURL=style.css.map */
