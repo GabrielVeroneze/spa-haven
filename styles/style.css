@@ -31,4 +31,18 @@ html, body {
   justify-content: center;
   min-height: 350px;
   opacity: 0.9;
+}
+.banner .banner__conteudo {
+  background-color: #F1E0AC;
+  border-radius: 45px;
+  opacity: 0.9;
+  padding: 3rem;
+}
+.banner .banner__conteudo .banner__titulo {
+  color: #495371;
+  font-size: 3rem;
+}
+.banner .banner__conteudo .banner__texto {
+  color: #74959A;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
