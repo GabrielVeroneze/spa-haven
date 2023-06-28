@@ -19,4 +19,16 @@ html, body {
 }
 .navbar .navbar__lista .navbar__item .navbar__link:hover {
   border-bottom: 2px solid #74959A;
+}
+
+.banner {
+  align-items: center;
+  background-image: url(../../imagens/banner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  opacity: 0.9;
 }/*# sourceMappingURL=style.css.map */
