@@ -122,4 +122,23 @@ html, body {
 }
 .cupom .cupom__input:hover, .cupom .cupom__input:focus {
   box-shadow: 0px 1px 8px 1px #495371;
+}
+.cupom .cupom__botao {
+  background-color: #495371;
+  border: none;
+  border-radius: 40px;
+  color: #74959A;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  height: 40px;
+  letter-spacing: 1px;
+  margin-top: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 130px;
+}
+.cupom .cupom__botao:hover {
+  background-color: #74959A;
+  color: #495371;
 }/*# sourceMappingURL=style.css.map */

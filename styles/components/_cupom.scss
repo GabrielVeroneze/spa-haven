@@ -29,4 +29,25 @@
             box-shadow: 0px 1px 8px 1px $cor-primaria;
         }
     }
+
+    .cupom__botao {
+        background-color: $cor-primaria;
+        border: none;
+        border-radius: 40px;
+        color: $cor-secundaria;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        height: 40px;
+        letter-spacing: 1px;
+        margin-top: 0.75rem;
+        text-align: center;
+        text-transform: uppercase;
+        width: 130px;
+
+        &:hover {
+            background-color: $cor-secundaria;
+            color: $cor-primaria;
+        }
+    }
 }
