@@ -10,4 +10,23 @@
         font-size: $tamanho-do-texto / 1.7;
         margin: 2rem 0;
     }
+
+    .cupom__input {
+        border: none;
+        border-radius: 20px;
+        box-sizing: border-box;
+        display: block;
+        font-size: $tamanho-do-texto / 2;
+        height: 48px;
+        margin: 0 auto;
+        outline: none;
+        padding: 0 35px;
+        text-align: center;
+        transition: 0.5s;
+        width: 575px;
+
+        &:hover, &:focus {
+            box-shadow: 0px 1px 8px 1px $cor-primaria;
+        }
+    }
 }
