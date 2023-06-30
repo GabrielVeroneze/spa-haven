@@ -81,4 +81,17 @@ html, body {
 .servicos .servicos__cards .card .card__imagem-container .card__imagem {
   height: auto;
   width: 100%;
+}
+.servicos .servicos__cards .card .card__titulo {
+  color: #495371;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.servicos .servicos__cards .card .card__texto {
+  color: #495371;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */
