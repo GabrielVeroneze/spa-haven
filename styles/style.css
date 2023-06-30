@@ -63,4 +63,22 @@ html, body {
   font-weight: 300;
   margin-bottom: 80px;
   text-align: center;
+}
+.servicos .servicos__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+.servicos .servicos__cards .card {
+  flex-basis: 360px;
+  text-align: center;
+}
+.servicos .servicos__cards .card .card__imagem-container {
+  border-bottom: 6px solid #74959A;
+  padding-bottom: 2px;
+}
+.servicos .servicos__cards .card .card__imagem-container .card__imagem {
+  height: auto;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
