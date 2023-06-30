@@ -94,4 +94,15 @@ html, body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.25rem;
+}
+
+.cupom {
+  background-color: #F1E0AC;
+  padding: 4rem;
+  text-align: center;
+}
+.cupom .cupom__texto {
+  color: #495371;
+  font-size: 1.7647058824rem;
+  margin: 2rem 0;
 }/*# sourceMappingURL=style.css.map */
