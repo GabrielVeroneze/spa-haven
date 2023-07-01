@@ -1,0 +1,15 @@
+import styles/abstract/_variaveis.scss
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+.rodape
+    border-top: 2px solid $cor-primaria
+    font-size: $tamanho-do-texto / 2
+    margin-top: 1rem
+    padding: 1.2rem
+    text-align: center
+    @include bg-cores($cor-primaria, $cor-secundaria, $cor-terciaria, $cor-terciaria)
+
+    .rodape__icone
+        color: red
