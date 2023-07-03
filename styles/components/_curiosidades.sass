@@ -1,0 +1,35 @@
+@import '../abstract/variaveis'
+
+.curiosidades
+    display: grid
+    grid-template-columns: repeat(2, 50%)
+    padding: 3rem $espacamento-lateral
+
+    .curiosidades__imagem
+        height: auto
+        justify-self: right
+        max-width: 500px
+        width: 100%
+
+    .curiosidades__conteudo
+        border-left: 4px solid $cor-primaria
+        display: flex
+        flex-direction: column
+        justify-content: center
+        max-width: 500px
+        padding-left: 24px
+
+        .curiosidades__titulo
+            color: $cor-primaria
+            font-size: $tamanho-do-texto / 2
+            margin-bottom: 8px
+        
+        .curiosidades__subtitulo
+            color: $cor-secundaria
+            font-size: $tamanho-do-texto / 3
+            margin-bottom: 8px
+
+        .curiosidades__texto
+            color: $cor-primaria
+            font-size: $tamanho-do-texto / 3
+            line-height: 18px
