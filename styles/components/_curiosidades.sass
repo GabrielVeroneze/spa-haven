@@ -33,3 +33,16 @@
             color: $cor-primaria
             font-size: $tamanho-do-texto / 3
             line-height: 18px
+
+@media screen and (max-width: 768px)
+    .curiosidades
+        grid-template-columns: none
+        grid-template-rows: repeat(2, max-content)
+        justify-content: center
+
+        .curiosidades__conteudo
+            border-left: none
+            border-top: 4px solid $cor-primaria
+            padding-left: 0
+            padding-top: 24px
+            text-align: center
