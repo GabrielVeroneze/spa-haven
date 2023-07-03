@@ -2,7 +2,7 @@
 
 .cupom {
     background-color: $cor-terciaria;
-    padding: 4rem;
+    padding: 4rem $espacamento-lateral;
     text-align: center;
 
     .cupom__texto {
@@ -19,11 +19,12 @@
         font-size: $tamanho-do-texto / 2;
         height: 48px;
         margin: 0 auto;
+        max-width: 575px;
         outline: none;
         padding: 0 35px;
         text-align: center;
         transition: 0.5s;
-        width: 575px;
+        width: 100%;
 
         &:hover, &:focus {
             box-shadow: 0px 1px 8px 1px $cor-primaria;
