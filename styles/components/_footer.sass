@@ -10,9 +10,13 @@
 .rodape
     border-top: 2px solid $cor-primaria
     font-size: $tamanho-do-texto / 2
-    padding: 1.2rem $espacamento-lateral
+    padding: 1.2rem $espacamento-lateral-grande
     text-align: center
     @include bg-cores('', $cor-primaria, $cor-secundaria, $cor-terciaria, $cor-terciaria)
 
     .rodape__icone
         color: red
+
+@media screen and (max-width: 768px)
+    .rodape
+        padding: 1.2rem $espacamento-lateral-pequeno

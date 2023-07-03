@@ -2,7 +2,7 @@
 
 .cupom {
     background-color: $cor-terciaria;
-    padding: 4rem $espacamento-lateral;
+    padding: 4rem $espacamento-lateral-grande;
     text-align: center;
 
     .cupom__texto {
@@ -50,5 +50,11 @@
             background-color: $cor-secundaria;
             color: $cor-primaria;
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cupom {
+        padding: 4rem $espacamento-lateral-pequeno;
     }
 }

@@ -96,6 +96,14 @@ html, body {
   line-height: 1.25rem;
 }
 
+@media screen and (max-width: 768px) {
+  .servicos {
+    margin: 5rem 2rem;
+  }
+  .servicos .servicos__cards {
+    gap: 30px;
+  }
+}
 .cupom {
   background-color: #F1E0AC;
   padding: 4rem 5rem;
@@ -144,6 +152,11 @@ html, body {
   color: #495371;
 }
 
+@media screen and (max-width: 768px) {
+  .cupom {
+    padding: 4rem 2rem;
+  }
+}
 .rodape {
   border-top: 2px solid #495371;
   font-size: 1.5rem;
@@ -155,6 +168,11 @@ html, body {
   color: red;
 }
 
+@media screen and (max-width: 768px) {
+  .rodape {
+    padding: 1.2rem 2rem;
+  }
+}
 .curiosidades {
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -195,6 +213,7 @@ html, body {
     grid-template-columns: none;
     grid-template-rows: repeat(2, max-content);
     justify-content: center;
+    padding: 3rem 2rem;
   }
   .curiosidades .curiosidades__conteudo {
     border-left: none;
