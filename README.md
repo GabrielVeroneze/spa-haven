@@ -37,10 +37,10 @@ git clone https://github.com/GabrielVeroneze/spa-haven.git
 
 ## Demonstração Visual
 `Página inicial`
-![Organo Plus](https://imgur.com/0BsRzNs.png)
+![SPA Haven](https://imgur.com/0BsRzNs.png)
 
 `Página inicial`
-![Organo Plus](https://imgur.com/HaC6Jvp.png)
+![SPA Haven](https://imgur.com/HaC6Jvp.png)
 
 `Página inicial`
-![Organo Plus](https://imgur.com/elsp4Br.png)
+![SPA Haven](https://imgur.com/elsp4Br.png)
