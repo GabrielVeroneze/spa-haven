@@ -23,8 +23,8 @@
 `<nav>`    | `Partials`
 `<ul>`     | `Sintaxe Recuada`
 `...`      | `Sintaxe SCSS`
-``         | `Variáveis`
-``         | `...`
+&nbsp;     | `Variáveis`
+&nbsp;     | `...`
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
